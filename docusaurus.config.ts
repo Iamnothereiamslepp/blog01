@@ -22,10 +22,10 @@ const config: Config = {
       '是一个由RALive的主頁和博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
   themeConfig: {
-    // announcementBar: {
-    //   id: 'announcementBar-3',
-    //   content: `announcementBarContent`,
-    // },
+     announcementBar: {
+       id: 'announcementBar-3',
+       content: `announcementBarContent`,
+     },
     image: 'img/og.png',
     metadata: [
       {
