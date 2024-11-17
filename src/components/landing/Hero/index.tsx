@@ -40,7 +40,7 @@ function Name() {
         e.currentTarget.style.setProperty('--y', `${e.clientY}px`)
       }}
     >
-      <Translate id="homepage.hero.greet">你好! 我是</Translate>
+      <Translate id="homepage.hero.greet">你好! 我們是</Translate>
       <span
         className={styles.name}
         onMouseMove={e => {
@@ -76,7 +76,7 @@ export default function Hero() {
             className="relative z-10 flex items-center rounded-2xl border border-neutral-200 border-solid bg-background px-5 py-3 text-center font-semibold text-base dark:border-neutral-800"
           >
             <a href={'/about'} className="font-semibold">
-              <Translate id="hompage.hero.introduce">自我介绍</Translate>
+              <Translate id="hompage.hero.introduce">關於我們</Translate>
             </a>
           </MovingButton>
         </motion.div>
