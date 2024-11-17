@@ -7,6 +7,8 @@ import type { GiscusConfig } from './src/components/Comment'
 const beian = '闽ICP备2020017848号-2'
 const beian1 = '闽公网安备35021102000847号'
 
+const announcementBarContent = `<a href="https://keqingblog.netlify.app/" target="_blank">刻晴的前端小站</a> 🎉`;
+
 const config: Config = {
   title: 'RALive',
   url: 'https://kuizuo.cn',
@@ -22,7 +24,7 @@ const config: Config = {
   themeConfig: {
     // announcementBar: {
     //   id: 'announcementBar-3',
-    //   content: ``,
+    //   content: `announcementBarContent`,
     // },
     image: 'img/og.png',
     metadata: [
