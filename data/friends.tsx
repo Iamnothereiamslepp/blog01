@@ -6,6 +6,12 @@ export const Friends: Friend[] = [
     avatar: '/img/friend/zxuqian.png',
   },
   {
+    title: 'RAGroup',
+    description: '致力于帮助你',
+    website: 'https://blog5.ragroup.us.kg',
+    avatar: '/img/friend/zxuqian.png',
+  },
+  {
     title: 'Mas0n',
     description: '梦想是咸鱼',
     website: 'https://mas0n.org/',
