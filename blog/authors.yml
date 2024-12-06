@@ -7,3 +7,29 @@ kuizuo:
   socials:
     x: kuizuo
     github: kuizuo
+
+ragroup: 
+  name: ragroup
+  title: 全栈 typescripter / 刚毕业的学生
+  url: https://github.com/ragroup01
+  image_url: https://kuizuo.cn/img/logo.png
+  email: ragroupmailme@gmail.com
+  socials:
+    x: kuizuo
+    github: kuizuo
+
+ralive:
+  name: RAgroupLive/RALive
+  title: Docusaurus maintainer, This Week In React editor
+  url: https://home.ragrouplive.us.kg
+  image_url: https://github.com/slorber.png
+  page: true
+  description: >
+    A freelance React and React-Native developer near Paris and Docusaurus maintainer. Also runs ThisWeekInReact.com, a newsletter to stay updated with the React ecosystem.
+
+
+  socials:
+    x: sebastienlorber
+    linkedin: sebastienlorber
+    github: slorber
+    newsletter: https://thisweekinreact.com
