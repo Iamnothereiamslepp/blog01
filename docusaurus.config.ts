@@ -55,41 +55,41 @@ const config: Config = {
       hideOnScroll: true,
       items: [
         { label: '博客', position: 'right', to: 'blog' },
-        { label: '项目', position: 'right', to: 'project' },
-        { label: '友链', position: 'right', to: 'friends' },
-        { label: '关于', position: 'right', to: 'about' },
+        { label: '專案', position: 'right', to: 'project' },
+        { label: '友鏈', position: 'right', to: 'friends' },
+        { label: '關於', position: 'right', to: 'about' },
         {
           label: '更多',
           position: 'right',
           items: [
-            { label: '归档', to: 'blog/archive' },
-            { label: '笔记', to: 'docs/skill' },
-            { label: '工具推荐', to: 'docs/tools' },
+            { label: '歸檔', to: 'blog/archive' },
+            { label: '筆記', to: 'docs/skill' },
+            { label: '工具推薦', to: 'docs/tools' },
           ],
         },
-        // {
-        //   type: 'localeDropdown',
-        //   position: 'right',
-        // },
+         {
+           type: 'localeDropdown',
+           position: 'right',
+         },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: '学习',
+          title: '學習',
           items: [
             { label: '博客', to: 'blog' },
-            { label: '归档', to: 'blog/archive' },
-            { label: '技术笔记', to: 'docs/skill' },
-            { label: '实战项目', to: 'project' },
+            { label: '歸檔', to: 'blog/archive' },
+            { label: '科技筆記', to: 'docs/skill' },
+            { label: '實戰項目', to: 'project' },
             { label: '前端示例', to: 'https://example.kuizuo.cn' },
           ],
         },
         {
-          title: '社交媒体',
+          title: '社交媒體',
           items: [
-            { label: '关于我', to: '/about' },
+            { label: '關於我', to: '/about' },
             { label: 'GitHub', href: social.github.href },
             { label: 'Twitter', href: social.x.href },
             { label: '掘金', href: social.juejin.href },
@@ -97,7 +97,7 @@ const config: Config = {
           ],
         },
         {
-          title: '网站',
+          title: '網站',
           items: [
             { label: 'js反混淆', to: 'https://js-deobfuscator.kuizuo.cn' },
             { label: 'cyberChef', to: 'https://gchq.github.io/CyberChef' },
@@ -109,7 +109,7 @@ const config: Config = {
         {
           title: '更多',
           items: [
-            { label: '友链', position: 'right', to: 'friends' },
+            { label: '友鏈', position: 'right', to: 'friends' },
             {
               html: `
                 <a href="https://docusaurus.io" target="_blank" rel="noreferrer noopener">
@@ -289,7 +289,7 @@ Love what you do and do what you love.
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: 'RALive的个人博客',
+        content: 'RALive的博客',
       },
     },
   ],
