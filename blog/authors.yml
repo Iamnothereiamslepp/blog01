@@ -17,6 +17,7 @@ ragroup:
   socials:
     x: kuizuo
     github: kuizuo
+  page: true # Turns the feature on - route will be /authors/ragroup
 
 ralive:
   name: RAgroupLive/RALive
