@@ -1,0 +1,101 @@
+---
+id: maifinale
+slug: /maimai-finale
+title: 舞萌旧框 Maimai FiNALE
+date: 2024-06-10
+authors: ragroup
+tags: [maimai, sega, maimai finale]
+keywords: [maimai, sega, maimai finale]
+description: 这篇文章分享了作者在一家 AI 公司入职一个月的心得和体会，包括工作中的挑战与成长。
+image: https://img.kuizuo.cn/2024/0729092038-ai-people.png
+---
+
+import Tweet from '@site/src/components/Tweet';
+import { Icon } from '@iconify/react'
+import Comment from '@site/src/components/Comment'
+import social from '@site/data/social'
+
+
+## 舞萌旧框 Maimai FiNALE
+### 步骤
+若想在Windows上运行舞萌FiNALE，首先需要下载舞萌Finale的解密转储文件，下载地址在段落末
+
+解压后PATCH：
+
+#### ①打开 \maimai\ 文件夹，并创建以下两个文件
+
+                           `SystemConfig.txt`
+```
+GAME_VER_A 1
+GAME_VER_B 99
+GAME_VER_C 0
+
+GAME_SHOW_VER 1.99B
+FULLSCREEN 0
+
+WINDOW_W 960
+WINDOW_H 960
+
+SOUND_CH_SRC 2
+SOUND_CH_DST 2
+
+MASSPRO 1
+```
+                            `GrooveMaster.ini`
+```
+1P_ONLY 1
+DEV 1
+EVENT_INFO_CHECK 1
+NO_DELIVER 1
+NO_JVS 1
+NO_LINKCHECK 1
+NO_REBOOT 1
+NO_RESTRICT 1
+NO_RING 1
+NO_SERIAL 1
+NO_WAIT 0
+QUICK_BOOT 1
+ROTATE 1
+SET_ALL_OPEN 1
+SET_EVENT_MODE 1
+SET_FREEPLAY 1
+SET_OFFLINE_MODE 1
+SET_OPEN_EVENT 1
+SET_OPEN_SECRET 1
+SET_REGION EX
+SET_TRACKS_1P 4
+SET_TRACKS_EVENT 4
+SET_TRACKS_MULTI 4
+SET_AUTO_PLAY 1
+```
+![文件示例如图](https://www.94joy.cn/wp-content/uploads/2022/04/sublime_text_bqD8XM38Aw-1024x738.png "文件示例如图") 文件示例如图
+
+#### ②使用Hex编辑器编辑 maimai_dump_.exe （关闭Movie DB错误警告）
+```
+0x2AA470 : 51 -> C3
+```
+## 游玩
+#### 使用键盘：Q W E R A S D F Z X C V
+![文件示例如图](https://www.94joy.cn/wp-content/uploads/2022/04/maikeyboard.png "文件示例如图") 键盘按键对应
+#### 使用触摸：详见[MaiSense](https://github.com/SirusDoma/MaiSense)项目
+
+### 注意
+
+#### ①自动播放
+
+在 `GrooveMaster.ini` 中添加一行如下代码
+```
+SET_AUTO_PLAY 1
+```
+#### ②下载
+
+#### 舞萌FiNALE转储：[提供](http://alist.ragroup.us.kg/terabox4/share/maimai/MAIMAI%20FINALE)
+
+#### 编译的maimai_dump_.exe：不提供/已經编译
+---
+[Help](https://github.com/studeent039/blognew/discussions/5#discussion-7512152)
+---
+:::info important
+__仅作学习探讨，不传播任何侵权文件，从未牟利。也不提倡任何侵权行为。__
+
+:::
