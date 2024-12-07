@@ -1,5 +1,5 @@
 <h2 align="center">
-愧怍的个人博客
+取至愧怍的博客
 </h2>
 <p align="center">
 <a href="https://vercel.com/new/clone?repository-url=https://github.com/kuizuo/blog/tree/main&project-name=blog&repo-name=blog" rel="nofollow"><img src="https://vercel.com/button"></a>
