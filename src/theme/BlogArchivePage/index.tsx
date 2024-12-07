@@ -119,7 +119,7 @@ export default function BlogArchive({ archive }: Props) {
         </h2>
         <p>
           <Translate id="theme.blog.archive.posts.total" values={{ total: archive.blogPosts.length }}>
-            {'当前共有 {total} 篇文章，请持续保持创作！'}
+            {'目前共有 {total} 篇文章，請持續保持創作！'}
           </Translate>
         </p>
         {years.length > 0 && <YearsSection years={years} />}
