@@ -224,7 +224,7 @@ const config: Config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: '代码人生：编织技术与生活的博客之旅',
+        blogDescription: '代碼人生: 編織科技與生活的部落格之旅',
         blogSidebarCount: 10,
         blogSidebarTitle: '博文',
         postsPerPage: 12,
