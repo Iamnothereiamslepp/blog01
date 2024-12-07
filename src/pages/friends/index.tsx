@@ -8,13 +8,13 @@ import Link from '@docusaurus/Link'
 import { motion } from 'framer-motion'
 import styles from './styles.module.css'
 
-const TITLE = '友链'
-const DESCRIPTION = '有很多良友，胜于有很多财富。'
+const TITLE = '友鏈'
+const DESCRIPTION = '有很多良友，勝於有很多財富。'
 const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friends.tsx'
 const SITE_INFO = `
-title: '愧怍'
-description: '道阻且长，行则将至'
-website: 'https://kuizuo.cn'
+title: 'RALive'
+description: '道阻且長，行則將至'
+website: 'https://home.ragrouplive.us.kg'
 avatar: 'https://kuizuo.cn/img/logo.png'
 `
 const friends = Friends
@@ -35,7 +35,7 @@ function FriendHeader() {
       <h1>{TITLE}</h1>
       <p>{DESCRIPTION}</p>
       {/* <a className="button button--primary" href={ADD_FRIEND_URL} target="_blank" rel="noreferrer">
-        🔗 申请友链
+        🔗 申請友鏈
       </a> */}
     </section>
   )
