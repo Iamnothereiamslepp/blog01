@@ -63,8 +63,8 @@ const config: Config = {
           position: 'right',
           items: [
             { label: '歸檔', to: 'blog/archive' },
-            { label: '筆記', to: 'docs/skill' },
-            { label: '工具推薦', to: 'docs/tools' },
+            { label: '筆記', to: '404' },
+            { label: '工具推薦', to: '404' },
           ],
         },
          {
