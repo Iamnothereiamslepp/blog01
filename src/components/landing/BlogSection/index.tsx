@@ -62,7 +62,7 @@ export default function BlogSection(): JSX.Element {
   })
 
   if (blogData.postNum === 0) {
-    return <>作者还没开始写博文哦...</>
+    return <>作者還沒開始寫博文哦...</>
   }
 
   return (
