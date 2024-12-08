@@ -5,7 +5,7 @@ export const projects: Project[] = [
     preview: '/img/project/blog.png',
     website: 'https://kuizuo.cn',
     source: 'https://github.com/kuizuo/blog',
-    tags: ['opensource', 'design', 'favorite'],
+    tags: ['opensource', 'design', 'favorite', 'ralive'],
     type: 'web',
   },
   {
@@ -195,7 +195,7 @@ export type Tag = {
   color: string
 }
 
-export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'personal'
+export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'ralive' | 'personal'
 
 export type ProjectType = 'web' | 'app' | 'commerce' | 'personal' | 'toy' | 'other'
 
@@ -243,6 +243,11 @@ export const Tags: Record<TagType, Tag> = {
     label: '大型',
     description: '大型项目，原多于平均数的页面',
     color: '#8c2f00',
+  },
+  ralive: {
+    label: 'RALive',
+    description: '大型项目，原多于平均数的页面',
+    color: '#ffa5fb',
   },
   personal: {
     label: '个人',
