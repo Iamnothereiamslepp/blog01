@@ -154,7 +154,7 @@ const config: Config = {
       repo: 'Iamnothereiamslepp/blog01',
       repoId: 'R_kgDONQSr7Q',
       category: 'General',
-      categoryId: 'DIC_kwDONQSr7c4CkWJ6',
+      categoryId: 'DIC_kwDONQSr7c4CkWJ7',
       theme: 'light',
       darkTheme: 'dark_dimmed',
     } satisfies Partial<GiscusConfig>,
