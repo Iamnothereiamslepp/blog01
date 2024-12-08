@@ -300,7 +300,7 @@ Love what you do and do what you love.
   ],
   i18n: {
     defaultLocale: 'zh-hant',
-    locales: ['zh-hant', 'zh-TW', 'zh-HK'],
+    locales: ['zh-hant', 'zh-TW', 'zh-HK', 'zh'],
   },
   onBrokenLinks: 'warn',
 }
