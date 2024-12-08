@@ -8,6 +8,7 @@ export type Social = {
   zhihu?: string
   email?: string
   discord?: string
+  youtube?: string
 }
 
 type SocialValue = {
@@ -27,6 +28,7 @@ const social: Social = {
   facebook: 'https://music.163.com/#/user/home?id=1333010742',
   email: 'mailto:ralivemailme@gmail.com',
   discord: 'https://discord.gg/M8cVcjDxkz',
+  youtube: 'https://youtube.com/',
 }
 
 const socialSet: Record<keyof Social | 'rss', SocialValue> = {
@@ -83,6 +85,12 @@ const socialSet: Record<keyof Social | 'rss', SocialValue> = {
     title: '网易云',
     icon: 'ri:facebook-line',
     color: '#C20C0C',
+  },
+  youtube: {
+    href: social.youtube,
+    title: 'Youtube',
+    icon: 'ri:youtube-fill',
+    color: '#FF0000',
   },
   rss: {
     href: '/blog/rss.xml',
