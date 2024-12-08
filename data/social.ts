@@ -28,7 +28,7 @@ const social: Social = {
   facebook: 'https://music.163.com/#/user/home?id=1333010742',
   email: 'mailto:ralivemailme@gmail.com',
   discord: 'https://discord.gg/M8cVcjDxkz',
-  youtube: 'https://youtube.com/',
+  youtube: 'https://youtube.com/@RaliveManagement',
 }
 
 const socialSet: Record<keyof Social | 'rss', SocialValue> = {
