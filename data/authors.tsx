@@ -8,7 +8,7 @@ export const Friends: Friend[] = [
   {
     title: 'RAGroup',
     description: '致力于帮助你',
-    website: 'https://blog5.ragroup.us.kg',
+    website: 'https://blog5.ragroup.us.kg/authors/ragroup',
     avatar: '/img/friend/zxuqian.png',
   },
   {
