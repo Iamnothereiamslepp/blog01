@@ -5,7 +5,7 @@ import FeaturesSection from '../components/landing/FeaturesSection'
 import Hero from '../components/landing/Hero'
 import ProjectSection from '../components/landing/ProjectSection'
 import Particles from '../components/magicui/particles'
-import Companies from '../components/landing/Companysections'
+import Companies from '../components/landing/CompanySections'
 
 export default function Home() {
   const {
