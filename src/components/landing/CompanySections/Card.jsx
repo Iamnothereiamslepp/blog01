@@ -1,5 +1,5 @@
 import React from 'react'
-import Bg from '../assets/bg.png'
+import Bg from '.src/components/landing/CompanySections/bg.png'
 
 const Card = ({ title, subtitle, rating, backgroundColors, className="", image }) => {
     const { top, bottom } = backgroundColors;
