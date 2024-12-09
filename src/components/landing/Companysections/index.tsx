@@ -35,6 +35,6 @@ export function Companies() {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
