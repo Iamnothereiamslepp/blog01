@@ -1,5 +1,4 @@
 import Translate from '@docusaurus/Translate'
-import features from '@site/data/features'
 import { cn } from '@site/src/lib/utils'
 import { BentoGrid, BentoGridItem } from '../../magicui/bento-grid'
 import { Section } from '../Section'
