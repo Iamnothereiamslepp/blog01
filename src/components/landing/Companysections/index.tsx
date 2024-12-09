@@ -1,3 +1,7 @@
+import Translate from '@docusaurus/Translate'
+import { Section } from '../Section'
+import { cn } from '@site/src/lib/utils'
+
 const companies = [
   "Google",
   "Microsoft",
@@ -11,7 +15,7 @@ const companies = [
  
 export function Companies() {
   return (
-    <section id="companies">
+     <Section title={<Translate id="homepage.company.title">个人特点</Translate>} icon={'ri:map-pin-user-line'}>
       <div className="py-14">
         <div className="container mx-auto px-4 md:px-8">
           <h3 className="text-center text-sm font-semibold text-gray-500">
