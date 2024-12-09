@@ -1,10 +1,10 @@
 import React from 'react'
-import Img1 from './assets/img1.png'
-import Img2 from './assets/img2.png'
-import Img3 from './assets/img3.png'
-import Img4 from './assets/img4.png'
-import Img5 from './assets/img5.png'
-import CardStacker from './components/CardStacker'
+import Img1 from 'src/components/landing/CompanySections/img1.png'
+import Img2 from 'src/components/landing/CompanySections/img1.png'
+import Img3 from 'src/components/landing/CompanySections/img1.png'
+import Img4 from 'src/components/landing/CompanySections/img1.png'
+import Img5 from 'src/components/landing/CompanySections/img1.png'
+import CardStacker from 'src/components/landing/CompanySections/CardStacker'
 
 const App = () => {
 
