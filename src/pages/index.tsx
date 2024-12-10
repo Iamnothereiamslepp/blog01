@@ -17,6 +17,7 @@ export default function Home() {
     <Layout title={tagline} description={description}>
       <main>
         <Hero />
+        <Companies />
         <Particles className="absolute inset-0" quantity={100} ease={80} color={'#ffffff'} refresh />
 
         <div className="relative">
