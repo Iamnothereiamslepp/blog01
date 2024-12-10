@@ -13,8 +13,8 @@
 }
 
 .logo {
-  max-width: 150px;  /* 設定最大寬度 */
-  max-height: 100px; /* 設定最大高度 */
+  max-width: 640px;  /* 設定最大寬度 */
+  max-height: 218px; /* 設定最大高度 */
   object-fit: contain; /* 確保圖片比例不會變形 */
   transition: opacity 0.5s ease-in-out; /* 添加淡入效果 */
 }
