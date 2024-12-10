@@ -7,7 +7,6 @@ import HeroSvg from './img/hero.svg'
 import SocialLinks from '@site/src/components/SocialLinks'
 import { MovingButton } from '../../magicui/moving-border'
 import styles from './styles.module.css'
-import "./TrustedTeams.css";
 
 const variants: Variants = {
   visible: i => ({
