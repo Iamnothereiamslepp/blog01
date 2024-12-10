@@ -1,4 +1,4 @@
-export const logo: Project[] = [
+export const projects: Project[] = [
   {
     title: '愧怍的小站',
     description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
