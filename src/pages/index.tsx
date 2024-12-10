@@ -5,7 +5,7 @@ import FeaturesSection from '../components/landing/FeaturesSection'
 import Hero from '../components/landing/Hero'
 import ProjectSection from '../components/landing/ProjectSection'
 import Particles from '../components/magicui/particles'
-import TrustedTeams from '../components/landing/logoSection'
+import LogoFade from '../components/landing/logofSection'
 
 export default function Home() {
   const {
