@@ -1,0 +1,35 @@
+.trusted-teams {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 100px; /* 根據需要調整大小 */
+  opacity: 0.3; /* 初始透明度 */
+  transition: opacity 0.5s ease-in-out; /* 添加平滑過渡 */
+}
+
+.logo:hover {
+  opacity: 1; /* 懸停時變得清晰 */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade {
+  animation: fadeIn 2s ease-in-out infinite alternate; /* 循環動畫 */
+}
+
