@@ -1,5 +1,5 @@
 import React from "react";
-import "src/components/landing/logoSection/TrustedTeams.css"; // 引入 CSS 文件
+import "./components/landing/logoSection/TrustedTeams.css"; // 引入 CSS 文件
 
 const TrustedTeams = () => {
   return (
