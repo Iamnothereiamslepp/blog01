@@ -3,11 +3,9 @@ import './LogoFade.css';  // 引入 CSS 檔案
 import {useTranslation} from '@docusaurus/theme-common';
 
 const LogoFade = () => {
-  const {translate} = useTranslation();  // 使用翻譯 hook
-  
   return (
     <div className="logo-container">
-      <h2>{translate({message: 'TRUSTEDBYLEADINGTEAMS'})}</h2>
+      <h2>TRUSTED BY LEADING TEAMS</h2>
       <div className="logos">
        <div className="logo-item">
         <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
