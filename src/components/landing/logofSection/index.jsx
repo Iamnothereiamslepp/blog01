@@ -10,17 +10,20 @@ const LogoFade = () => {
        <div className="logo-item">
         <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
           <img src="https://hololivepro.com/wp-content/uploads/2023/03/holostars_hp.png" alt="Google" className="logo fade-in" />
+          <div className="overlay">Google</div>
         </a>
        </div>
        <div className="logo-item">
         <a href="https://www.microsoft.com" target="_blank" rel="noopener noreferrer">
           <img src="https://hololivepro.com/wp-content/uploads/2023/03/officialshop_hp.png" alt="Microsoft" className="logo fade-in" />
+          <div className="overlay">Microsoft</div>
         </a>
        </div>
        <div className="logo-item">
         <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">
           <img src="https://hololivepro.com/wp-content/uploads/2023/03/hololive_hp.png" alt="Amazon" className="logo fade-in" />
         </a>
+        <div className="overlay">Amazon</div>
       </div>
     </div>
    </div>
