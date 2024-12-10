@@ -38,7 +38,7 @@
 
 @keyframes scroll {
   0% {
-    transform: translateX(0); /* 初始位置 */
+    transform: translateX(100); /* 初始位置 */
   }
   100% {
     transform: translateX(-50%); /* 滾動到容器的負寬度 */
