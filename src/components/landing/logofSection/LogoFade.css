@@ -11,7 +11,7 @@
   align-items: center;
   padding-bottom: 20px;
   gap: 20px;  /* 調整圖片之間的間距 */
-  animation: scroll 10s linear infinite; /* 10秒滾動一次，無限循環 */
+  animation: scroll 20s linear infinite; /* 10秒滾動一次，無限循環 */
 }
 
 .logo-item {
