@@ -1,8 +1,11 @@
-import React from "react";
-import "./components/landing/logoSection/TrustedTeams.css"; // 引入 CSS 文件
+import React from 'react'
+import './components/landing/logoSection/TrustedTeams.css' // 引入 CSS 文件
+import { cn } from '@site/src/lib/utils'
+import Translate from '@docusaurus/Translate'
 
-const TrustedTeams = () => {
+const TrustedTeams = ({ className }) => {
   return (
+   <div className={className}>
     <div className="trusted-teams">
       <h2>TRUSTED BY LEADING TEAMS</h2>
       <div className="logo-container">
@@ -17,6 +20,7 @@ const TrustedTeams = () => {
         </a>
       </div>
     </div>
+   </div>
   );
 };
 
