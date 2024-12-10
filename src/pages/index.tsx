@@ -5,7 +5,7 @@ import FeaturesSection from '../components/landing/FeaturesSection'
 import Hero from '../components/landing/Hero'
 import ProjectSection from '../components/landing/ProjectSection'
 import Particles from '../components/magicui/particles'
-import Companies from '../data/company.tsx'
+import TrustedTeams from '../src/components/landing/logoSection'
 
 export default function Home() {
   const {
@@ -17,11 +17,11 @@ export default function Home() {
     <Layout title={tagline} description={description}>
       <main>
         <Hero />
-        <Companies />
         <Particles className="absolute inset-0" quantity={100} ease={80} color={'#ffffff'} refresh />
 
         <div className="relative">
           <div className="mx-auto max-w-7xl bg-background lg:px-8">
+            <TrustedTeams />
             <ProjectSection />
             <BlogSection />
             <FeaturesSection />
