@@ -6,6 +6,7 @@ import Hero from '../components/landing/Hero'
 import ProjectSection from '../components/landing/ProjectSection'
 import Particles from '../components/magicui/particles'
 import LogoFade from '../components/landing/logofSection'
+import LogoSection from '../components/landing/logopSection'
 
 export default function Home() {
   const {
