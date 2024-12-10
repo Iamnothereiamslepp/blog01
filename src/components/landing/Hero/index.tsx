@@ -87,6 +87,7 @@ export default function Hero() {
         <Circle />
       </motion.div>
     </motion.div>
+  <>
     <motion.div className={styles.trusted-teams}>
       <h2>TRUSTED BY LEADING TEAMS</h2>
       <div className={styles.logo-container}>
@@ -103,5 +104,6 @@ export default function Hero() {
     </div>
   </div>
 </motion.div>
+    </>
   )
 }
