@@ -7,7 +7,7 @@ const removeHttp = (url: string) => {
   return url.replace(/(^\w+:|^)\/\//, '')
 }
 
-const showLogo = logo.filter(i => i.preview)
+const showProjects = projects.filter(i => i.preview)
 
 const Slider = ({ items }: { items: Project[] }) => {
   return (
@@ -47,7 +47,7 @@ export default function LogoSection() {
       icon={'ri:projector-line'}
       href={'/company'}
     >
-      <Slider items={showLogo} />
+      <Slider items={showProjects} />
     </Section>
   )
 }
