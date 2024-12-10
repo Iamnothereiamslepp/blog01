@@ -21,6 +21,7 @@ const LogoFade = () => {
         </a>
       </div>
     </div>
+   </div>
   );
 }
 
