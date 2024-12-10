@@ -9,7 +9,6 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  overflow-x: auto;  /* 啟用水平滾動 */
   padding-bottom: 20px;
   gap: 20px;  /* 調整圖片之間的間距 */
   animation: scroll 10s linear infinite; /* 10秒滾動一次，無限循環 */
@@ -39,7 +38,7 @@
 
 @keyframes scroll {
   0% {
-    transform: translateX(0); /* 初始位置 */
+    transform: translateX(100); /* 初始位置 */
   }
   100% {
     transform: translateX(-100%); /* 滾動到容器的負寬度 */
