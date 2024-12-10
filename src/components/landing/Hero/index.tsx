@@ -87,7 +87,7 @@ export default function Hero() {
         <Circle />
       </motion.div>
     </motion.div>
-    <div className={styles.trusted-teams}>
+    <motion.div className={styles.trusted-teams}>
       <h2>TRUSTED BY LEADING TEAMS</h2>
       <div className={styles.logo-container}>
         <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
