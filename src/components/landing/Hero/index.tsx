@@ -86,7 +86,6 @@ export default function Hero() {
         <Circle />
       </motion.div>
     </motion.div>
-  {/* Trusted by Leading Teams Section */}
     <div className="trusted-teams">
       <h2>TRUSTED BY LEADING TEAMS</h2>
       <div className="logo-container">
