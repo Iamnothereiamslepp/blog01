@@ -3,7 +3,7 @@ import './LogoFade.css';  // 引入 CSS 檔案
 
 const LogoFade = () => {
   return (
-    <<div className="logo-container">
+    <div className="logo-container">
       <h2>TRUSTED BY LEADING TEAMS</h2>
       <div className="logos">
         <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
