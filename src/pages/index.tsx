@@ -8,7 +8,7 @@ import Particles from '../components/magicui/particles'
 import LogoFade from '../components/landing/logofSection'
 import LogoSection from '../components/landing/logopSections'
 import LogoScroll from '../components/landing/logfSection'
-import Component from '../components/landing/StautsSection
+import Component from '../components/landing/StautsSection'
 
 export default function Home() {
   const {
