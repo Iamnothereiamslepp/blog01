@@ -36,6 +36,17 @@
   }
 }
 
+@media (max-width: 768px) {
+  .logo {
+    max-width: 100px;
+    max-height: 70px;
+  }
+
+  .logo-item {
+    margin-right: 15px;
+  }
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(100); /* 初始位置 */
