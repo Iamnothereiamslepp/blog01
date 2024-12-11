@@ -267,8 +267,8 @@ const config: Config = {
       )
 
       const motto = `
-This Webisite Powered By Kz Blog.
-Written by Docusaurus, Coding with Love.
+This Webisite Powered By RAGroup.
+Written by Kz, Coding with Love.
 --------
 Love what you do and do what you love.
 `
