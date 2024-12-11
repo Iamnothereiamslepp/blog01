@@ -1,0 +1,24 @@
+.logo-container {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  overflow: hidden; /* 隱藏容器外的圖片 */
+}
+
+.logo {
+  max-width: 150px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.magicui-carousel .slick-slide img {
+  display: block;
+  margin: 0 auto;
+}
+
+.magicui-carousel {
+  .slick-prev, .slick-next {
+    font-size: 20px;
+    z-index: 10;
+  }
+}
