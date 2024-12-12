@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from '@magic-ui/react';
+import { Grid } from '../components/magicui';
 import TalentCard from './TalentCard';
 
 function TalentPage() {
