@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid } from '../components/magicui';
-import TalentCard from '.../components/landing/compSection/TalentCard.tsx';
+import TalentCard from '../components/landing/compSection/TalentCard.tsx';
 
 function TalentPage() {
   const talents = [
