@@ -1,8 +1,12 @@
+import React from 'react';
+import { Grid } from '@magic-ui/react';
+import TalentCard from './TalentCard';
+
 function TalentPage() {
   const talents = [
-    { image: '/path-to-image1', logo: '/path-to-logo1', title: 'Hololive DEV_IS' },
-    { image: '/path-to-image2', logo: '/path-to-logo2', title: 'Holostars' },
-    { image: '/path-to-image3', logo: '/path-to-logo3', title: 'Hololive Indonesia' },
+    { image: '/image1.jpg', logo: '/logo1.png', title: 'Talent 1' },
+    { image: '/image2.jpg', logo: '/logo2.png', title: 'Talent 2' },
+    { image: '/image3.jpg', logo: '/logo3.png', title: 'Talent 3' },
   ];
 
   return (
