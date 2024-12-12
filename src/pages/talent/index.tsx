@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from '../components/magicui/';
+import { BentoCard, BentoGrid } from '../components/magicui/bento-grid';
 import TalentCard from '../components/landing/compSection';
 
 function TalentPage() {
