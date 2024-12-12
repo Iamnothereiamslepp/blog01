@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from '.../src/components/magicui/react';
+import { Grid } from '.../src/components/magicui';
 import TalentCard from '.../src/components/landing/compSection/TalentCard.tsx';
 
 function TalentPage() {
