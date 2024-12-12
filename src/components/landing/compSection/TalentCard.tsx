@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from '../components/magicui';
+import { Card } from '.../components/magicui';
 
 function TalentCard({ image, logo, title }) {
   return (
