@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Sitemap: https://home.ragrouplive.us.kg/sitemap.xml
