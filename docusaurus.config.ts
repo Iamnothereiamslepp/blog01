@@ -211,6 +211,15 @@ const config: Config = {
       },
     ],
     [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        ignorePatterns: ['/tags/**'], // 忽略不需要生成的路徑
+        filename: 'sitemap.xml',
+      },
+    ],
+    [
       'vercel-analytics',
       {
         debug: process.env.NODE_ENV === 'development',
