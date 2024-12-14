@@ -187,8 +187,18 @@ const config: Config = {
         theme: {
           customCss: ['./src/css/custom.css', './src/css/tweet-theme.css'],
         },
+        {
         sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
           priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+          createSitemapItems: async (params) => {
+            const {defaultCreateSitemapItems, ...rest} = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes('/page/'));
+         },
         },
         gtag: {
           trackingID: 'G-S4SD5NXWXF',
