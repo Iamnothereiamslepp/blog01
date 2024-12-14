@@ -215,21 +215,6 @@ const config: Config = {
       },
     ],
     [
-      '@docusaurus/plugin-sitemap',
-      {
-        lastmod: 'date',
-        changefreq: 'weekly',
-        priority: 0.5,
-        ignorePatterns: ['/tags/skill'],
-        filename: 'sitemap.xml',
-        createSitemapItems: async (params) => {
-          const {defaultCreateSitemapItems, ...rest} = params;
-          const items = await defaultCreateSitemapItems(rest);
-          return items.filter((item) => !item.url.includes('/page/'));
-        },
-      },
-    ],
-    [
       'vercel-analytics',
       {
         debug: process.env.NODE_ENV === 'development',
