@@ -40,6 +40,10 @@ const config: Config = {
         name: 'keywords',
         content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向, 主攻ts全栈',
       },
+      {
+        name: 'description',
+        content: '網站描述',
+      },
     ],
     docs: {
       sidebar: {
