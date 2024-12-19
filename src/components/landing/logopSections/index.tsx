@@ -43,7 +43,7 @@ const Slider = ({ items }: { items: Project[] }) => {
 export default function LogoSection() {
   return (
     <Section
-      title={<Translate id="homepage.project.title">展示</Translate>}
+      title={<Translate id="homepage.company.title">展示</Translate>}
       icon={'ri:contacts-book-3-fill'}
       href={'/company'}
     >
