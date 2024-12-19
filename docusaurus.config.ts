@@ -200,7 +200,7 @@ const config: Config = {
           },
         },
         gtag: {
-          trackingID: 'G-S4SD5NXWXF',
+          trackingID: 'G-CHTYYQ23QN',
           anonymizeIP: true,
         },
         debug: process.env.NODE_ENV === 'development',
@@ -281,7 +281,7 @@ const config: Config = {
 
       const motto = `
 This Webisite Powered By RAGroup.
-Written by Kz, Coding with Love.
+Written by RAGroup, Coding with Kz.
 --------
 Love what you do and do what you love.
 `
