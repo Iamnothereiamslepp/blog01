@@ -1,15 +1,15 @@
 export const projects: Project[] = [
   {
-    title: '愧怍的小站',
-    description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
+    title: 'RAGroup',
+    description: '一間公司',
     preview: '/img/project/blog.png',
-    website: 'https://kuizuo.cn',
-    source: 'https://github.com/kuizuo/blog',
+    website: 'https://blog5.ragroup.us.kg',
+    source: 'https://blog5.ragroup.us.kg',
     tags: ['sponsor', 'design', 'favorite', 'ralive'],
     type: 'web',
   },
   {
-    title: 'JS代码反混淆',
+    title: 'Google',
     description: '基于 Babel 对 JavaScript 混淆代码还原的工具',
     preview: '/img/project/js-deobfuscator.png',
     website: 'https://js-deobfuscator.vercel.app',
@@ -18,7 +18,7 @@ export const projects: Project[] = [
     type: 'web',
   },
   {
-    title: 'Youni（校园社交平台）',
+    title: 'Yahoo',
     description: '基于 React Native + NestJs 实现的一个校园社交平台应用',
     preview: '/img/project/youni.png',
     website: 'https://youni.vercel.app',
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     type: 'web',
   },
   {
-    title: 'nest-vben-admin',
+    title: 'Microsoft',
     description: ' NestJs + Vben Admin 编写的一款前后端分离的权限管理系统',
     preview: '/img/project/nest-vben-admin.png',
     website: 'https://admin.kuizuo.cn',
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     type: 'web',
   },
     {
-    title: 'nest-vben-admin',
+    title: 'Vercel',
     description: ' NestJs + Vben Admin 编写的一款前后端分离的权限管理系统',
     preview: '/img/project/nest-vben-admin.png',
     website: 'https://admin.kuizuo.cn',
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     type: 'web',
   },
   {
-    title: 'api-server',
+    title: 'RALive productions',
     description: '🔗 基于 Nuxt 搭建的 API 接口服务网站',
     preview: '/img/project/kz-api.png',
     website: 'https://api.kuizuo.cn',
