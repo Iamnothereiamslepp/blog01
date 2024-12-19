@@ -52,7 +52,7 @@ const config: Config = {
     },
     navbar: {
       logo: {
-        alt: '愧怍',
+        alt: 'RALive',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
