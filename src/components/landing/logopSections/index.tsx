@@ -44,7 +44,7 @@ export default function LogoSection() {
   return (
     <Section
       title={<Translate id="homepage.project.title">展示</Translate>}
-      icon={'ri:projector-line'}
+      icon={'ri:contacts-book-3-fill'}
       href={'/company'}
     >
       <Slider items={showProjects} />
