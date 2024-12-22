@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /private/
 Sitemap: https://home.ragrouplive.us.kg/sitemap.xml
+# Algolia-Crawler-Verif: BD21032F1796874F
