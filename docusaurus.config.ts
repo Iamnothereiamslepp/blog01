@@ -191,7 +191,7 @@ const config: Config = {
         theme: {
           customCss: ['./src/css/custom.css', './src/css/tweet-theme.css'],
         },
-         sitemap: {
+          sitemap: {
           lastmod: 'date',
           changefreq: 'weekly',
           priority: 0.5,
