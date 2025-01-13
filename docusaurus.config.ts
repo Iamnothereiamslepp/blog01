@@ -198,9 +198,9 @@ const config: Config = {
           ignorePatterns: ['/tags/skill'],
           filename: 'sitemap.xml',
           createSitemapItems: async (params) => {
-            const {defaultCreateSitemapItems, ...rest} = params;
-            const items = await defaultCreateSitemapItems(rest);
-            return items.filter((item) => !item.url.includes('/page/'));
+           const {defaultCreateSitemapItems, ...rest} = params;
+           const items = await defaultCreateSitemapItems(rest);
+           return items.filter((item) => !item.url.includes('/page/'));
           },
         },
         gtag: {
