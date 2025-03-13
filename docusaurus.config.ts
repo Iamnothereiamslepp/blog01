@@ -184,10 +184,6 @@ const config: Config = {
           sidebarPath: 'sidebars.ts',
         },
         blog: false,
-        {
-        googleTagManager: {
-          containerId: 'G-CHTYYQ23Qn',
-        },
         theme: {
           customCss: ['./src/css/custom.css', './src/css/tweet-theme.css'],
         },
